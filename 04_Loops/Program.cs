@@ -137,19 +137,19 @@ namespace _04_Loops
 
             //Klavyeden girilen 3 basamkalı sayının basamakları toplamını toplamını hesaplayan kodu yazınız. 456
 
-            Console.Write("Sayıyı giriniz: ");
-            int number = int.Parse(Console.ReadLine());
+            //Console.Write("Sayıyı giriniz: ");
+            //int number = int.Parse(Console.ReadLine());
 
-            int ones, tens, hundreds;
-            int sum;
+            //int ones, tens, hundreds;
+            //int sum;
 
-            ones = number % 10;
-            tens = number % 100 / 10;
-            hundreds = number / 100; //4.56 olur ama sadece 4'ü alır
-            Console.WriteLine(ones + " " + tens + " " + hundreds);
+            //ones = number % 10;
+            //tens = number % 100 / 10;
+            //hundreds = number / 100; //4.56 olur ama sadece 4'ü alır
+            //Console.WriteLine(ones + " " + tens + " " + hundreds);
 
-            sum = ones + tens + hundreds;
-            Console.WriteLine(sum);
+            //sum = ones + tens + hundreds;
+            //Console.WriteLine(sum);
 
             #endregion
 
